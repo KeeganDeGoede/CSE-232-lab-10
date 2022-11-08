@@ -1,3 +1,11 @@
+%matplotlib inline
+import numpy as np
+import sympy as sym
+import networkx as nx
+import matplotlib.pyplot as plt
+sym.init_printing(use_unicode=True)
+
+
 n = 60 # number of nodes
 B = nx.Graph() # initialize graph
 
